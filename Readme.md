@@ -17,10 +17,11 @@ This course covers in depth about the
 - [ ] Merging
   - [x] Fast Forward Merge
   - [x] Merge Commit
+  - [ ] Merge Conflicts
   - [ ] Recursive Strategy
   - [ ] Squash Merge
   - [ ] Merge Rebase
-  - [ ] Merge Conflicts
+
 
 ## Git cheatsheet
 
@@ -30,3 +31,4 @@ This course covers in depth about the
 | git show HEAD^2   | Refers to a second parent of a merge commit |
 | git show HEAD^^   | Refers to first parent's parent of a merge commit |
 | git merge --no-ff | Avoids a fast forward merge |
+| git branch -f (branch-name) (new-commit) | Move branch label to a different commit |
