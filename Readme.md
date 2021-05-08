@@ -16,3 +16,11 @@ This course covers in depth about the
   - [x] Branch Label
 - [ ] Merging
   - [ ] Merge Conflicts
+
+## Git cheatsheet
+
+| Command      | Description |
+| ----------- | ----------- |
+| git reflog  | Returns a local lists of recent HEAD commits |
+| git show HEAD^2   | Refers to a second parent of a merge commit |
+| git show HEAD^^   | Refers to first parent's parent of a merge commit |
