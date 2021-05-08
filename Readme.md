@@ -7,6 +7,7 @@ This course covers in depth about the
 - [x] Architecture
 - [x] References
   - [x] Caret and Tilde Operators
+  - [x] The .git Directory
   - [x] Git ID's
   - [x] Git Tags
 - [x] Branches
