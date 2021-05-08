@@ -15,6 +15,11 @@ This course covers in depth about the
   - [x] Detached Head
   - [x] Branch Label
 - [ ] Merging
+  - [x] Fast Forward Merge
+  - [x] Merge Commit
+  - [ ] Recursive Strategy
+  - [ ] Squash Merge
+  - [ ] Merge Rebase
   - [ ] Merge Conflicts
 
 ## Git cheatsheet
@@ -24,3 +29,4 @@ This course covers in depth about the
 | git reflog  | Returns a local lists of recent HEAD commits |
 | git show HEAD^2   | Refers to a second parent of a merge commit |
 | git show HEAD^^   | Refers to first parent's parent of a merge commit |
+| git merge --no-ff | Avoids a fast forward merge |
