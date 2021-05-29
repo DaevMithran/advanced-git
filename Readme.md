@@ -15,14 +15,24 @@ This course covers in depth about the
   - [x] Detached Head
   - [x] Branch Label
   - [x] Tracking branches
-- [ ] Merging
+- [x] Merging
   - [x] Fast Forward Merge
   - [x] Merge Commit
   - [x] Merge Conflicts
-  - [ ] Recursive Strategy
-  - [ ] Squash Merge
-  - [ ] Merge Rebase
+  - [x] Rebasing
+  - [x] Squash Merge
+- [x] Pull requests
+- [x] Workflows
+- [ ] Final Project  
 
+<br>
+
+## Git Workflow
+<br>
+
+![Git Flows](./screenshots/gitWorkflow.jpg)
+
+<br>
 
 ## Git cheatsheet
 
@@ -34,3 +44,6 @@ This course covers in depth about the
 | git merge --no-ff | Avoids a fast forward merge |
 | git branch -f (branch-name) (new-commit) | Move branch label to a different commit |
 | git remote set-head (remote-url-alias) (branch-name) | Change tracking branch |
+| git rebase (upstream-branch) (branch-name) | Rebasing a branch |
+| git commit --amend | Amending a commit |
+| git merge --squash | Perform a squash merge | 
