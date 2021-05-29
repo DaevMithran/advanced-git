@@ -14,10 +14,11 @@ This course covers in depth about the
   - [x] Dangling Commits 
   - [x] Detached Head
   - [x] Branch Label
+  - [x] Tracking branches
 - [ ] Merging
   - [x] Fast Forward Merge
   - [x] Merge Commit
-  - [ ] Merge Conflicts
+  - [x] Merge Conflicts
   - [ ] Recursive Strategy
   - [ ] Squash Merge
   - [ ] Merge Rebase
@@ -32,3 +33,4 @@ This course covers in depth about the
 | git show HEAD^^   | Refers to first parent's parent of a merge commit |
 | git merge --no-ff | Avoids a fast forward merge |
 | git branch -f (branch-name) (new-commit) | Move branch label to a different commit |
+| git remote set-head (remote-url-alias) (branch-name) | Change tracking branch |
